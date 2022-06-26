@@ -1,10 +1,9 @@
 {
   "required": true,
-  "package": "tfar.finitewater.mixin",
+  "package": "trinsdar.nomcchatmoderation.mixin",
   "compatibilityLevel": "JAVA_16",
   "minVersion": "0.8",
   "mixins": [
-    "fabric.FlowingFluidMixin"
   ],
   "injectors": {
     "defaultRequire": 1
