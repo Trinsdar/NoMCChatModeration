@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "nomc_cm",
+  "version": "${version}",
+  "name": "No Minecraft Chat Moderation",
+  "description": "Disables Minecraft's new report chat feature cause it's too broken.",
+  "authors": [
+    "Trinsdar"
+  ],
+  "contact": {
+    "sources": "https://github.com/Trinsdar/NoMcChatModeration"
+  },
+  "license": "LGPL-3.0-only",
+  "environment": "*",
+  "mixins": [
+    "nomcchatmoderation.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.19.1"
+  }
+}
